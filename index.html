@@ -10,15 +10,15 @@
 </head>
 <body>
     <div id="overlay"></div>
-    <div id="mobile-menu" class="mobile-main-menu">
+    <div id="mobile-menu" class="mobile-main-menu flex-col">
         <img src="asset/fire.png" alt="">
-        <ul>
-            <li><a href="index.html" class="menu-item">Home</a></li>
-            <li><a href="about.html" id="link1" class="menu-item">About</a></li>
-            <li><a href="#program" class="menu-item">Program</a></li>
-            <li><a href="#speaker-section" class="menu-item">Speakers</a></li>
-            <li><a href="about.html" class="menu-item">Sponsors</a></li>
-            <li><a href="#" class="menu-item">News</a></li>
+        <ul class="flex-col">
+            <li class="flex-row"><a href="index.html" class="menu-item">Home</a></li>
+            <li class="flex-row"><a href="about.html" id="link1" class="menu-item">About</a></li>
+            <li class="flex-row"><a href="#program" class="menu-item">Program</a></li>
+            <li class="flex-row"><a href="#speaker-section" class="menu-item">Speakers</a></li>
+            <li class="flex-row"><a href="about.html" class="menu-item">Sponsors</a></li>
+            <li class="flex-row"><a href="#" class="menu-item">News</a></li>
         </ul>
     </div>
     <header>
@@ -70,8 +70,8 @@
         <span class="hamburger-middle"></span>
         <span class="hamburger-bottom"></span>
     </button type="button">
-    <section id="main-section">
-        <div class="main">
+    <section id="main-section" class="flex-row">
+        <div class="main flex-col">
             <div class="heading">
                 <h3>"Hello! Sharing world"</h3>
                 <h1 id="heading-text">
@@ -90,7 +90,7 @@
             </div>
         </div>
     </section>
-    <section id="program">
+    <section id="program" class="flex-col">
         <h2>Main Program</h2>
         <hr class="dash">
         <div class="program-items">
@@ -133,8 +133,8 @@
         <button type="button" id="join-btn" class="btn">Join OV Gaming Summit 2015</button>
         <a href="#">See the whole program</a>
     </section>
-    <section id="speaker-section">
-        <div class="speaker-header">
+    <section id="speaker-section" class="flex-col">
+        <div class="flex-col">
             <h2>Featured Speakers</h2>
             <hr class="dash">
         </div>
@@ -154,7 +154,7 @@
         </div>
     </section>
     <footer id="footer-desktop" class="footer-section">
-        <div class="footer-container">
+        <div class="footer-container flex-row">
             <div class="logo-img-container">
                 <img src="asset/fire.png" alt="logo">
                 <h2>

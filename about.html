@@ -9,15 +9,15 @@
 </head>
 <body>
     <div id="overlay"></div>
-    <div id="mobile-menu" class="mobile-main-menu">
+    <div id="mobile-menu" class="mobile-main-menu flex-col">
         <img src="asset/fire.png" alt="">
-        <ul>
-            <li><a href="index.html" class="menu-item">Home</a></li>
-            <li><a href="about.html" id="link1" class="menu-item">About</a></li>
-            <li><a href="#main-section" class="menu-item">Program</a></li>
-            <li><a href="#" class="menu-item">Speakers</a></li>
-            <li><a href="#sponsors" class="menu-item">Sponsors</a></li>
-            <li><a href="#" class="menu-item">News</a></li>
+        <ul class="flex-col">
+            <li class="flex-row"><a href="index.html" class="menu-item">Home</a></li>
+            <li class="flex-row"><a href="about.html" id="link1" class="menu-item">About</a></li>
+            <li class="flex-row"><a href="#main-section" class="menu-item">Program</a></li>
+            <li class="flex-row"><a href="#" class="menu-item">Speakers</a></li>
+            <li class="flex-row"><a href="#sponsors" class="menu-item">Sponsors</a></li>
+            <li class="flex-row"><a href="#" class="menu-item">News</a></li>
         </ul>
     </div>
     <header>
@@ -92,7 +92,7 @@
         </div>
     </section>
     <section id="logo-section">
-        <div id="logo-description">
+        <div id="logo-description" class="flex-col">
             <h3>
                 OG Campaign 
                 <br>
@@ -113,8 +113,8 @@
             </div>
         </div>
     </section>
-    <section id="past-summits">
-        <div id="summit-description">
+    <section id="past-summits" class="flex-row">
+        <div id="summit-description" class="flex-col">
             <h3>
                 See the past OV Gaming Summits
             </h3>
@@ -124,13 +124,13 @@
             </p>
             <div class="summits">
                 <div id="summit-1" class="summit">
-                    <div>
+                    <div class="flex-col">
                         <h2>2022</h2>
                         <p>OV Gaming Summit 2022 in University of Ghana, Legon</p>
                     </div>
                 </div>
                 <div id="summit-2" class="summit">
-                    <div>
+                    <div class="flex-col">
                         <h2>2022</h2>
                         <p>OV Gaming Summit 2022 in University of Ghana, Legon</p>
                     </div>
@@ -139,7 +139,7 @@
         </div>
     </section>
     <section class="sponsors">
-        <div class="sponsors-container">
+        <div class="sponsors-container flex-col">
             <h3>Partner</h3>
             <hr class="dash">
             <div>
@@ -152,7 +152,7 @@
         </div>
     </section>
     <footer class="footer-section bg-dark">
-        <div class="footer-container">
+        <div class="footer-container flex-row">
             <div class="logo-img-container">
                 <img src="asset/fire.png" alt="logo">
                 <h2>
