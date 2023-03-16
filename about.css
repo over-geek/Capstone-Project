@@ -51,6 +51,10 @@
   text-align: center;
 }
 
+.sponsors-container .dash {
+  margin-bottom: 15px;
+}
+
 #logo-description .dash,
 #summit-description .dash {
   margin: 10px 0 0 0;
@@ -121,10 +125,6 @@
 
 .sponsors-container > div {
   width: 100%;
-}
-
-.sponsors-container .dash {
-  margin-bottom: 15px;
 }
 
 .sponsors-img {
