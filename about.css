@@ -132,9 +132,10 @@
 
 .sponsors-container > div {
   width: 100%;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  align-content: center;
+}
+
+.sponsors-container .dash {
+  margin-bottom: 15px;
 }
 
 .sponsors-img {
