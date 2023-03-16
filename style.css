@@ -420,7 +420,7 @@ h6 {
   #speaker-card-container {
     width: 80%;
     grid-template-columns: auto auto;
-    grid-template-rows: repeat(3, 120px);
+    grid-template-rows: repeat(3, auto);
     column-gap: 18px;
   }
 
